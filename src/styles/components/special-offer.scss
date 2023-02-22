@@ -1,0 +1,91 @@
+.special-offer {
+  background-color: #efefef;
+}
+
+.special-offer__inner {
+  padding: 20px 10px;
+}
+
+@media (min-width: $tablet-width) {
+  .special-offer__inner {
+    padding: 30px 20px 50px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .special-offer__inner {
+    max-width: $desktop-width;
+    margin: 0 auto;
+    padding: 80px 45px 100px;
+    box-sizing: border-box;
+  }
+}
+
+.special-offer__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+@media (min-width: $desktop-width) {
+  .special-offer__title {
+    text-align: left;
+  }
+}
+
+.special-offer__list {
+  width: 255px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .special-offer__list {
+    width: 540px;
+    display: grid;
+    grid-template-columns: repeat(2, 255px);
+    column-gap: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .special-offer__list {
+    width: auto;
+    grid-template-columns: repeat(4, 255px);
+  }
+}
+
+.special-offer__item {
+  background-color: #ffffff;
+  width: 255px;
+  padding-top: 197px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+  background-image: url("../assets/images/special-chair.png");
+  background-repeat: no-repeat;
+  background-position: top 20px center;
+}
+
+.special-offer__item-desc {
+  color: #333333;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.special-offer__item-cost {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.special-offer__button {
+  width: 130px;
+  margin: 0 auto;
+  letter-spacing: 0.05em;
+  display: block;
+}

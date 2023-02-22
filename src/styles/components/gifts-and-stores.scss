@@ -1,0 +1,85 @@
+.gifts-and-stores {
+  background-color: #efefef;
+  padding-bottom: 30px;
+}
+
+@media (min-width: $tablet-width) {
+  .gifts-and-stores {
+    padding-bottom: 70px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .gifts-and-stores {
+    padding-bottom: 130px;
+  }
+}
+
+.gifts-and-stores__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #ffffff;
+
+  & section {
+    background-color: #66c05d;
+    padding: 35px 0 35px 40px;
+    box-sizing: border-box;
+  }
+
+  & h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  & p {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .gifts-and-stores__inner {
+    padding: 0 20px;
+
+    & section {
+      padding: 35px 0 35px 40px;
+      box-sizing: border-box;
+      width: 540px;
+      margin: 0 auto;
+    }
+
+    & h2 {
+      margin-bottom: 20px;
+    }
+
+    & p {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .gifts-and-stores__inner {
+    max-width: $desktop-width;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 45px;
+    flex-direction: row;
+
+    &  section {
+      padding: 35px 0 35px 40px;
+    }
+
+    & h2 {
+      margin-bottom: 20px;
+    }
+
+    & p {
+      margin-bottom: 25px;
+    }
+  }
+}
