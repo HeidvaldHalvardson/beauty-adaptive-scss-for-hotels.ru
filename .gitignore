@@ -4,12 +4,7 @@
 *.log
 *.pdf
 *.psd
-src/
-babel.config.json
-package-lock.json
-package.json
-postcss.config.js
-webpack.config.js
+dist/
 node_modules/
 npm-debug.log*
 Thumbs.db
