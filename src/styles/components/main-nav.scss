@@ -1,17 +1,7 @@
-.main-nav {
-  background-color: #efefef;
-  margin-bottom: 10px;
-}
-
-@media (min-width: $tablet-width) {
-  .main-nav {
-    margin-bottom: 20px;
-  }
-}
-
 .main-nav__list {
   display: flex;
   flex-direction: column;
+  background-color: #efefef;
 }
 
 @media (min-width: $tablet-width) {
